@@ -1,0 +1,17 @@
+<%= form_with(model: retrospective, local: true) do |form| %>
+  <% if retrospective.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(retrospective.errors.count, "error") %> prohibited this retrospective from being saved:</h2>
+
+      <ul>
+        <% retrospective.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
