@@ -2,9 +2,9 @@
 
 ## Versions
 
-Ruby 2.7.1
-Rails 6.0.4.1
-Node 14.15.0
+Ruby 2.7.1  
+Rails 6.0.4.1  
+Node 14.15.0  
 
 ## Getting Started
 
