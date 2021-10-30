@@ -1,24 +1,44 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Versions
 
-Things you may want to cover:
+Ruby 2.7.1
+Rails 6.0.4.1
+Node 14.15.0
 
-* Ruby version
+## Getting Started
 
-* System dependencies
+Install Ruby Version through [rbenv](https://github.com/rbenv/rbenv)
+```
+rbenv local 2.7.1
+```
 
-* Configuration
+Install dependencies
+```
+bundle install
+```
+```
+yarn install
+```
 
-* Database creation
+Setup the database
+```
+rails db:create
+```
+```
+rails db:migrate
+```
 
-* Database initialization
+Run the server
+```
+rails server
+```
 
-* How to run the test suite
+Navigate to localhost:3000
 
-* Services (job queues, cache servers, search engines, etc.)
+## Tests
 
-* Deployment instructions
-
-* ...
+Run the tests
+```
+rails test
+```
